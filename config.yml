@@ -1,0 +1,16 @@
+title: débutant en programmation précisément en deuxième année
+description: mon premier projet il s'appel Sylla
+template:
+  repo: debutant-en-programmation-precisement-en-deuxieme-annee-template
+  name: debutant-en-programmation-precisement-en-deuxieme-annee
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
